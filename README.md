@@ -1,7 +1,7 @@
 # NixOS Hyprland Setup for wen (中 / EN)
 
 ## 简介 (简体中文)
-
+注：这些东西是ai生成的，谨慎使用，并确保按照自己的配置更改config！！！！！！！
 这个工作区包含一个完整的非-flake NixOS 配置（25.11），针对物理机部署优化，包含：
 - `configuration.nix`：完整系统配置（Hyprland、fcitx5、中文字体、Chrome、Flatpak）
 - `dotfiles/`：Hyprland、Waybar、Mako、fcitx5 用户配置文件
@@ -124,5 +124,6 @@ sudo nixos-rebuild switch
 ---
 
 **作者备注**：此配置经过 WSL 语法验证和 NixOS 评估检查，但实际部署效果需在目标 NixOS 25.11 物理机上测试。如遇问题，请查看 `/tmp/nixos-rebuild.log`。
+
 
 
